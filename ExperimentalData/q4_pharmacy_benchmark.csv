@@ -1,0 +1,10 @@
+InventorySize,MapType,100kLookupTimeMs,CodeOrderReportTimeMs,NaturallyCodeOrdered,InsertionOrderReportTimeMs,NaturallyInsertionOrdered
+1000,"HashMap",38.45,11.80,false,0.00,false
+1000,"TreeMap",135.99,0.95,true,0.00,true
+1000,"LinkedHashMap",24.48,1.13,true,0.29,true
+10000,"HashMap",55.17,37.89,false,0.00,false
+10000,"TreeMap",237.08,2.74,true,0.00,true
+10000,"LinkedHashMap",54.40,4.98,true,2.90,true
+100000,"HashMap",54.00,112.39,false,0.00,false
+100000,"TreeMap",136.11,13.24,true,0.00,false
+100000,"LinkedHashMap",51.81,36.34,false,13.85,true

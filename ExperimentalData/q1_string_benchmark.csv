@@ -1,0 +1,10 @@
+Workload,TicketCount,FieldsPerTicket,Approach,AvgTimeMs,EstimatedIntermediateStrings,MemoryUsedBytes
+"Workload 1 (1 Short Ticket, 5 Fields)",1,5,"String (+)",0.1399,10,0
+"Workload 1 (1 Short Ticket, 5 Fields)",1,5,"StringBuilder",0.0970,1,62936
+"Workload 1 (1 Short Ticket, 5 Fields)",1,5,"StringBuffer",0.1465,1,41968
+"Workload 3 (Additional: 2,000 Tickets, 50 Fields)",2000,50,"String (+)",36.3980,200000,2103344
+"Workload 3 (Additional: 2,000 Tickets, 50 Fields)",2000,50,"StringBuilder",16.0024,2000,737560
+"Workload 3 (Additional: 2,000 Tickets, 50 Fields)",2000,50,"StringBuffer",19.6088,2000,2896096
+"Workload 2 (10,000 Tickets, 50 Fields)",10000,50,"String (+)",110.0075,1000000,3674128
+"Workload 2 (10,000 Tickets, 50 Fields)",10000,50,"StringBuilder",55.1545,10000,18356024
+"Workload 2 (10,000 Tickets, 50 Fields)",10000,50,"StringBuffer",47.1587,10000,21917304

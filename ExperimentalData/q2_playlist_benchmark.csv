@@ -1,0 +1,22 @@
+PlaylistSize,Operation,ArrayListTimeMs,LinkedListTimeMs,ArrayDequeTimeMs
+1000,"Add at End (1000 items)",1.9488,1.0511,1.1949
+1000,"Insert at Front (1000 ops)",3.4950,2.0065,1.5894
+1000,"Insert in Middle (1000 ops)",1.7451,15.6064,-1.0000
+1000,"Remove from Front (1000 ops)",1.5831,1.1207,0.7087
+1000,"Remove from Middle (1000 ops)",1.0407,3.6974,-1.0000
+1000,"Random Access Get(k) (1000 ops)",0.4960,5.3456,-1.0000
+1000,"Iterate Whole List (1000 items)",1.6434,1.3029,0.7086
+10000,"Add at End (10000 items)",24.2362,25.2909,26.4974
+10000,"Insert at Front (2000 ops)",22.3545,16.2552,15.1610
+10000,"Insert in Middle (2000 ops)",19.3063,255.8835,-1.0000
+10000,"Remove from Front (2000 ops)",5.4659,4.3292,6.3436
+10000,"Remove from Middle (2000 ops)",7.5344,265.0801,-1.0000
+10000,"Random Access Get(k) (2000 ops)",0.4226,137.7655,-1.0000
+10000,"Iterate Whole List (10000 items)",1.3891,1.4371,1.1213
+50000,"Add at End (50000 items)",22.4926,35.6289,30.5256
+50000,"Insert at Front (2000 ops)",46.1640,28.3623,22.4451
+50000,"Insert in Middle (2000 ops)",37.3812,5684.3519,-1.0000
+50000,"Remove from Front (2000 ops)",43.9525,27.3561,25.1988
+50000,"Remove from Middle (2000 ops)",37.1499,5248.0029,-1.0000
+50000,"Random Access Get(k) (2000 ops)",0.6326,1909.9117,-1.0000
+50000,"Iterate Whole List (50000 items)",3.0611,3.7847,2.6021

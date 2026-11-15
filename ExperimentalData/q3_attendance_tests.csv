@@ -1,0 +1,5 @@
+TestCase,PredictedSize,ActualSize,PredictionMatches,Explanation
+"Test 1: Same Object Reference",2,2,true,"Identical reference has identical identity hashCode and == equality; appears to work"
+"Test 2: Distinct Instances Without hashCode",3,3,true,"Different identity hashCodes map to different buckets; equals() never checked; duplicate admitted"
+"Test 3A: Mutable Key Field in HashSet",1,1,true,"Hash code changed while in set; mapped to wrong bucket; element trapped and unsearchable"
+"Test 3B: Inconsistent TreeSet compareTo",1,1,true,"compareTo returned 0 for different regNos; TreeSet silently dropped legitimate unique student"
